@@ -1,0 +1,100 @@
+# Ignore virtual environments
+venv/
+.env
+.venv/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.out
+*.tmp
+
+# Ignore cache and compiled files
+.cache/
+*.egg-info/
+dist/
+build/
+
+# Ignore VS Code settings (if using VS Code)
+.vscode/
+
+# Ignore dependencies installed in colab/jupyter environments
+pip-wheel-metadata/
+
+
+
+
+
+
+
+
+# Ignore ChromaDB storage
+src/data/chromadb_store/
+*.sqlite3
+
+# Ignore Vercel deployment cache
+.vercel/
+.vercel_cache/
+
+# Ignore Node.js dependencies (if using Vercel with frontend integration)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ignore any temporary dataset files (if applicable)
+*.csv
+*.tsv
+*.json
+
+# Ignore backup or system-generated files
+.DS_Store
+Thumbs.db
+
+
+
+
+
+
+
+
+
+
+.env
+__pycache__/
+pinecone_store/
+
+
+
+
+# Ignore virtual environments
+venv/
+.env
+.venv/
+Scripts/
+Lib/
+bin/
+Include/
+pyvenv.cfg
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore package metadata
+*.dist-info/
+*.egg-info/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
